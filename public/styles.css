@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    background-color: #EDFFEC;
+    height: 100px;
+}
+
+
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #5E8B7E;
+    margin-left: 120px;
+    padding-top: 23px;
+    font-size: 2.2rem;
+}
+
+form {
+    position: relative;
+    width: 880px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea, 
+.title {
+    font-family: 'Noto Serif', serif;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    resize: none;
+}
+
+form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #CAF7E3;
+    color: #52734D;
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9rem;
+  }
+
+.blog {
+    background: #fff;
+    border-radius: 7px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+  }
+
+.blog h1 {
+    font-size: 1.7em;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 6px;
+    color: #557C55;
+  }
+  
+.blog p {
+    font-size: 1.3em;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #557C55;
+  }
+  
+.blog button {
+    position: relative;
+    bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    color: #5E8B7E;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+  }
+
+.blog:not(:hover) .delete-btn {
+    display: none;
+}
+
+.submitTime {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #52734D;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.1em;
+}
+
+.read-more {
+    color: #95D1CC;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
